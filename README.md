@@ -47,3 +47,9 @@ pip install dagshub
 
 ### MLflow Server Architecture
 ![alt text](image-5.png)
+
+### Dagshub connected
+![alt text](image-7.png)
+
+### Remote Mlflow server setup using Dagshub
+![alt text](image-6.png)
