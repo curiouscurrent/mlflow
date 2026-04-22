@@ -7,7 +7,7 @@ pip install mlflow
 mlflow ui
 ```
 ### First run (Logged metrics and params using MLflow)
-![alt text](image.png)
+![alt text](images/image.png)
 4) Find the mlflow artifact scheme with 
 ```
 mlflow.get_tracking_uri()
