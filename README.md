@@ -58,3 +58,7 @@ mlflow.autolog()
 
 ### Remote Mlflow server setup using Dagshub
 ![alt text](images/image-6.png)
+
+### Logged artifacts, params, models using Autologging
+![alt text](images/image-8.png)
+![alt text](images/image-9.png)
