@@ -16,5 +16,34 @@ mlflow.get_tracking_uri()
 ```
 mlflow.set_tracking_uri("http://127.0.0.1:5000/")
 ```
+
+6) Explicitly set the experiment name to ensure that the run is logged under the correct experiment
+```
+mlflow.set_experiment("<exp-name>")
+```
+or 
+
+set the exp id inside the mlrun code
+```
+with mlflow.start_run(experiment_id=):
+```
+
+7) Set remote tracking server via Dagshub
+```
+pip install dagshub
+```
+
 ### Logged Artifacts using MLflow
 ![alt text](image-1.png)
+
+### Experiment vs Run (Visual understanding)
+![alt text](image-2.png)
+
+### Logged the model along with its dependencies
+![alt text](image-3.png)
+
+### Added tags 
+![alt text](image-4.png)
+
+### MLflow Server Architecture
+![alt text](image-5.png)
