@@ -33,6 +33,11 @@ with mlflow.start_run(experiment_id=):
 pip install dagshub
 ```
 
+8) Autolog logs everything like params(all possible params of the model), metrics, artifacts, models except the script
+```
+mlflow.autolog()
+```
+
 ### Logged Artifacts using MLflow
 ![alt text](images/image-1.png)
 
