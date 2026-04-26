@@ -1,0 +1,5 @@
+# database files
+mlflow.db
+
+# mlflow server files
+mlruns/
