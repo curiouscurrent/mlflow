@@ -3,3 +3,6 @@ mlflow.db
 
 # mlflow server files
 mlruns/
+
+# mlflow artifact files
+mlartifacts/
