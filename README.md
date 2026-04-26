@@ -37,10 +37,9 @@ pip install dagshub
 ```
 mlflow.autolog()
 ```
-9) Hyperparameter tuning using Mlflow
-![alt text](images/image-10.png)
-![alt text](images/image-11.png)
 
+
+# OUTPUTS
 
 ### Logged Artifacts using MLflow
 ![alt text](images/image-1.png)
@@ -66,3 +65,15 @@ mlflow.autolog()
 ### Logged artifacts, params, datasets, models using Autologging
 ![alt text](images/image-8.png)
 ![alt text](images/image-9.png)
+
+
+
+### Hyperparameter tuning using Mlflow
+![alt text](images/image-10.png)
+![alt text](images/image-11.png)
+
+### Stages of Model Registry
+![alt text](images/image-12.png)
+
+### Model registry performed.
+![alt text](images/image-13.png)
