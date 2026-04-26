@@ -77,3 +77,6 @@ mlflow.autolog()
 
 ### Model registry performed.
 ![alt text](images/image-13.png)
+
+### Model registered on Databricks here : 
+<img width="1363" height="688" alt="image" src="https://github.com/user-attachments/assets/674c9425-169e-4a2f-a379-3ef008d6b6ea" />
