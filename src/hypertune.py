@@ -4,6 +4,16 @@ from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_breast_cancer
 import pandas as pd
 import mlflow
+import dagshub
+
+## Remote server setup below using Dagshub
+# -------------------------------------------------------------------------------
+# Set MLflow tracking URI
+mlflow.set_tracking_uri("https://dagshub.com/curiouscurrent/mlflow.mlflow")
+
+# Mlflow tracking setup (dagshub mlflow integration)
+dagshub.init(repo_owner='curiouscurrent', repo_name='mlflow', mlflow=True)
+# ------------------------------------------------------------------------------
 
 # Load the Breast Cancer dataset
 data = load_breast_cancer()
