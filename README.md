@@ -5,6 +5,10 @@ https://dagshub.com/curiouscurrent/mlflow.mlflow/#/experiments/3/runs
 ### On DataBricks
 https://dbc-7705e22f-14e8.cloud.databricks.com/explore/data/models/workspace/ml_models/breast_cancer_rf?o=7474659291625614
 
+### Email alerts configured on Model failure
+<img width="1330" height="635" alt="image" src="https://github.com/user-attachments/assets/9ad8a588-4cbd-411c-9946-3457a5d31b19" />
+
+
 # SETUP 
 1) Install mlflow
 ```
