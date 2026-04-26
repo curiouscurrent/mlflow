@@ -37,6 +37,10 @@ pip install dagshub
 ```
 mlflow.autolog()
 ```
+9) Hyperparameter tuning using Mlflow
+![alt text](images/image-10.png)
+![alt text](images/image-11.png)
+
 
 ### Logged Artifacts using MLflow
 ![alt text](images/image-1.png)
@@ -59,6 +63,6 @@ mlflow.autolog()
 ### Remote Mlflow server setup using Dagshub
 ![alt text](images/image-6.png)
 
-### Logged artifacts, params, models using Autologging
+### Logged artifacts, params, datasets, models using Autologging
 ![alt text](images/image-8.png)
 ![alt text](images/image-9.png)
